@@ -15,9 +15,6 @@ import numpy
 import matplotlib.pyplot
 
 
-#h_array = []
-#error_array = []
-
 total_time = 24. * 3600. # s
 g = 9.81 # m/s/s
 earth_mass = 5.97e24 # kg
