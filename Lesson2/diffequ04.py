@@ -7,7 +7,7 @@ import numpy
 import matplotlib.pyplot
 
 
-moon_distance = 384e6 # m
+moon_distance = 3.84e6 # m
 
 def orbit():
     num_steps = 50
