@@ -19,7 +19,7 @@ times = h * numpy.array(range(num_steps + 1))
 def waning():
     transmission_coeff = 5e-9 # 1 / day person
     infectious_time = 5. # days
-    waning_time = 10. # days
+    waning_time = 2 * infectious_time # days
 
     s = numpy.zeros(num_steps + 1)
     i = numpy.zeros(num_steps + 1)
