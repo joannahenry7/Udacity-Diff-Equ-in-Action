@@ -17,7 +17,7 @@ g = 9.81 # m / s2
 end_time = 5. # s
 num_steps = int(end_time / h)
 
-w = numpy.zeros(num_steps + 1) # 1 / s
+w = numpy.zeros(num_steps + 1) # m / s
 v = numpy.zeros(num_steps + 1) # m / s
 x = numpy.zeros(num_steps + 1) # m
 times = h * numpy.array(range(num_steps + 1))
